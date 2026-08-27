@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MG Tech Pros</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- MOBILE MENU BUTTON -->
+<button class="navbar-toggler d-lg-none" id="sidebar-toggle">
+  <i class="fas fa-bars"></i>
+</button>
+
+<!-- SIDEBAR -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <h3>MG Tech Pros</h3>
+  </div>
+
+  <nav class="nav flex-column">
+    <a class="nav-link active" href="#home"><i class="fas fa-home"></i> Home</a>
+    <a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a>
+    <a class="nav-link" href="#skills"><i class="fas fa-code"></i> Skills</a>
+    <a class="nav-link" href="#trust"><i class="fas fa-handshake"></i> Trusted by</a>
+    <a class="nav-link" href="#projects"><i class="fas fa-briefcase"></i> Projects</a>
+    <a class="nav-link" href="#process"><i class="fas fa-tasks"></i> Process</a>
+    <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+</div>
+
+<!-- MAIN -->
+<div class="main-content">
+
+<!-- HERO -->
+<section id="home" class="hero-section section-padding">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-lg-6">
+        <p class="hero-greeting">Hello, my name is</p>
+        <h1 class="hero-title">Gidion F. Maganiko</h1>
+        <h2 class="hero-subtitle" id="typing-text"></h2>
+
+        <p class="hero-description">
+                    I build modern websites and web applications, develop cross-platform mobile apps using Flutter and Firebase, and create visually engaging designs that enhance user experience.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline-primary">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="profile-image-container">
+          <img src="images/me.png" class="profile-image">
+          <div class="profile-frame"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-section section-padding">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+
+    <p class="about-text">
+        I am a Web and Web Applications Developer passionate about building modern, responsive, and scalable digital solutions. I also specialize in Flutter Mobile App Development, creating high-performance cross-platform applications integrated with technologies like Firebase. In addition, I work as a Graphic Designer, combining creativity and technology to deliver visually engaging and user-friendly digital experiences.
+    </p>
+
+    <div class="row g-4 text-center">
+      <div class="col-md-4">
+        <div class="stats-item">
+          <div class="stats-number">5+</div>
+          <div class="stats-text">Real Projects</div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="stats-item">
+          <div class="stats-number"><i class="fas fa-fire"></i></div>
+          <div class="stats-text">Firebase Specialist</div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="stats-item">
+          <div class="stats-number"><i class="fas fa-laptop-mobile"></i></div>
+          <div class="stats-text">Mobile & Web Solutions</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="row g-4">
+          <!-- Mobile Development -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card fade-in-up">
+              <h3 class="skill-category">Mobile Development</h3>
+              <ul class="skill-list">
+                <li class="skill-item"><i class="fas fa-check-circle"></i> Flutter</li>
+                <li class="skill-item"><i class="fas fa-check-circle"></i> Dart</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Web Development -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card fade-in-up" style="animation-delay: 0.1s;">
+              <h3 class="skill-category">Web Development</h3>
+              <ul class="skill-list">
+                <li class="skill-item"><i class="fas fa-check-circle"></i> HTML</li>
+                <li class="skill-item"><i class="fas fa-check-circle"></i> CSS</li>
+                <li class="skill-item"><i class="fas fa-check-circle"></i> JavaScript</li>
+                <li class="skill-item"><i class="fas fa-check-circle"></i> Bootstrap</li>
+                <li class="skill-item"><i class="fas fa-check-circle"></i> PHP</li>
+              </ul>
+            </div>
+          </div>
+           
+          <!-- Backend & Cloud -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card fade-in-up" style="animation-delay: 0.2s;">
+              <h3 class="skill-category">Backend & Cloud</h3>
+              <ul class="skill-list">
+                <li class="skill-item"><i class="fas fa-check-circle"></i> Firebase</li>
+                <li class="skill-item"><i class="fas fa-check-circle"></i> Firestore</li>
+                <li class="skill-item"><i class="fas fa-check-circle"></i> MySQL</li>
+                <li class="skill-item"><i class="fas fa-check-circle"></i> Django</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Design -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card fade-in-up" style="animation-delay: 0.3s;">
+              <h3 class="skill-category">Design</h3>
+              <ul class="skill-list">
+                <li class="skill-item"><i class="fas fa-check-circle"></i> Graphic Design</li>
+                <li class="skill-item"><i class="fas fa-check-circle"></i> UI/UX Basics</li>
+                <li class="skill-item"><i class="fas fa-check-circle"></i> Figma</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- PROJECTS -->
+ <!-- Projects 1 Section -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-md-6 fade-in-up">
+            <div class="project-card">
+              <img src="images/app.jpeg" alt="E-Waste Collection App" class="project-image">
+              <div class="project-content">
+                <h3 class="project-title">E-Waste Collection Mobile App</h3>
+                <p class="project-description">
+                  A mobile application that connects e-waste collectors with consumers, facilitating proper disposal of electronic waste through an easy-to-use platform.
+                </p>
+                <div>
+                  <span class="tech-badge">Flutter</span>
+                  <span class="tech-badge">Firebase</span>
+                  <span class="tech-badge">Google Maps API</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/fausygm"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 2 -->
+          <div class="col-md-6 fade-in-up" style="animation-delay: 0.1s;">
+            <div class="project-card">
+              <img src="images/pet.png" alt="Pet Store Supplies Web System" class="project-image">
+              <div class="project-content">
+                <h3 class="project-title">Pet Store Supplies Web System</h3>
+                <p class="project-description">
+                  A comprehensive web system for pet stores to manage inventory, process orders, and track customer interactions with an integrated payment system.
+                </p>
+                <div>
+                  <span class="tech-badge">HTML/CSS</span>
+                  <span class="tech-badge">JavaScript</span>
+                  <span class="tech-badge">PHP</span>
+                  <span class="tech-badge">MySQL</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://petsupplies.co.tz">View website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Process Section -->
+    <section id="process" class="process-section section-padding">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">My Development Process</h2>
+        <div class="row">
+          <!-- Step 1 -->
+          <div class="col-md-6 col-lg fade-in-up">
+            <div class="process-step">
+              <div class="process-icon">
+                <i class="fas fa-clipboard-list"></i>
+              </div>
+              <h4 class="process-title">Requirement Analysis</h4>
+              <p class="process-description">Gathering and analyzing client requirements to understand the scope and goals of the project.</p>
+            </div>
+          </div>
+          
+          <!-- Step 2 -->
+          <div class="col-md-6 col-lg fade-in-up" style="animation-delay: 0.1s;">
+            <div class="process-step">
+              <div class="process-icon">
+                <i class="fas fa-pencil-ruler"></i>
+              </div>
+              <h4 class="process-title">System Design</h4>
+              <p class="process-description">Creating architectural plans and UI/UX designs based on the requirements.</p>
+            </div>
+          </div>
+          
+          <!-- Step 3 -->
+          <div class="col-md-6 col-lg fade-in-up" style="animation-delay: 0.2s;">
+            <div class="process-step">
+              <div class="process-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h4 class="process-title">Development</h4>
+              <p class="process-description">Implementing the design using appropriate technologies and best practices.</p>
+            </div>
+          </div>
+          
+          <!-- Step 4 -->
+          <div class="col-md-6 col-lg fade-in-up" style="animation-delay: 0.3s;">
+            <div class="process-step">
+              <div class="process-icon">
+                <i class="fas fa-vial"></i>
+              </div>
+              <h4 class="process-title">Testing</h4>
+              <p class="process-description">Thorough testing to ensure functionality, performance, and security.</p>
+            </div>
+          </div>
+          
+          <!-- Step 5 -->
+          <div class="col-md-6 col-lg fade-in-up" style="animation-delay: 0.4s;">
+            <div class="process-step">
+              <div class="process-icon">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <h4 class="process-title">Deployment</h4>
+              <p class="process-description">Launching the application with ongoing support and maintenance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="partners-section section-padding" id="trust">
+  <div class="container text-center">
+    <a href="#trust"><h2 class="section-title">Trusted By</h2></a>
+    <p class="partners-note">Click on a logo to visit the website</p>
+
+    <div class="logo-slider">
+      <div class="logo-track">
+
+        <!-- ORIGINAL SET -->
+        <a href="https://ozitech.co.tz" target="_blank" class="partner-box">
+          <img src="images/ozico.png" class="partner-logo" alt="Ozico">
+        </a>
+
+        <a href="https://tusuaacademy.co.tz" target="_blank" class="partner-box">
+          <img src="images/tusua.png" class="partner-logo" alt="Client 2">
+        </a>
+
+        <a href="javascript:void(0)" target="_blank" class="partner-box">
+          <img src="images/AT1.png" class="partner-logo" alt="Client 2">
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+ <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container text-center fade-in-up">
+        <h2 class="cta-title">Have a project in mind?</h2>
+        <p class="cta-subtitle">Let's build something great together.</p>
+        <a href="#contact" class="btn btn-primary btn-lg">Contact Me</a>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <h2 class="section-title mb-5">Get In Touch</h2>
+        <div class="row g-4">
+          <div class="col-lg-5 fade-in-up">
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <h5>Email</h5>
+                 <a href="mailto:fausygm@gmail.com">fausygm@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="contact-text">
+                  <h5>WhatsApp</h5>
+                  <a href="https://wa.me/255762859091">+255762859091</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fab fa-instagram"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h5>Instagram</h5>
+                    <a href="https://instagram.com/fausygm" target="_blank">instagram.com</a>
+                  </div>
+                </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="contact-text">
+                  <h5>GitHub</h5>
+                  <a href="https://github.com/fausygm" target="_blank">github.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="contact-text">
+                  <h5>LinkedIn</h5>
+                  <a href="https://www.linkedin.com/in/gidion-maganiko-97356226a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">linkedin.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/255762859091" class="whatsapp-float">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+<!-- SETTINGS BUTTON -->
+<div id="settingsToggle" class="settings-toggle">
+  <i class="fas fa-gear"></i>
+</div>
+
+<!-- SETTINGS PANEL -->
+<div id="settingsPanel" class="settings-panel">
+
+  <div class="setting-group">
+    <p>Theme</p>
+    <button class="theme-btn" data-theme="light">Light</button>
+    <button class="theme-btn" data-theme="dark">Dark</button>
+  </div>
+
+  <div class="setting-group">
+    <p>Primary Color</p>
+    <div class="color-options">
+      <span class="color-btn blue" data-color="#3b82f6"></span>
+      <span class="color-btn pink" data-color="#ec4899"></span>
+      <span class="color-btn green" data-color="#22c55e"></span>
+      <span class="color-btn orange" data-color="#f59e0b"></span>
+    </div>
+  </div>
+</div>
+
+  <!-- Footer -->
+    <footer class="footer">
+      <div class="container position-relative">
+        <div class="footer-content">
+          <div class="footer-text">
+            <p class="mb-0">&copy; 2026 MG Tech Pros. All rights reserved.</p>
+          </div>
+        </div>
+        <a href="#home" class="back-to-top">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JS with Popper -->
+  <script src="fontawesome/js/all.min.js"></script>
+  <!-- Typed.js for typing animation -->
+  <!-- Typed.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
